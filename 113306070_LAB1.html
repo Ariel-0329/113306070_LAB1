@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th colspan = "3" >About -- 113306070</th>
+		</tr>
+
+		<tr>
+			<td rowspan = "4" >
+				<img src = "photo.jpg" alt = "personal photo image" width="150" height="200" /><br>
+				personal photo
+			</td>
+		</tr>
+
+			<td colspan="2">Name: <input type="text" name="name" size="25" ><br>
+				Gender:
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+			</td>
+
+		<tr>
+			<td>County: 
+				<select name="county">
+					<option value="Taipei">Taipei</option>
+					<option value="Tainan">Tainan</option>
+					<option value="Taichung">Taichung</option>
+					<option value="Taoyuan">Taoyuan</option>
+				</select>
+			</td>
+			<td>Birthday: <input type="date" name="birthday" ></td>
+		</tr>
+
+		<tr>
+			<td colspan = "2" >E-mail: <input type="email" name="E-mail" size="25" ></td>
+		<tr>
+
+		<tr>
+            <td>Hobby</td>
+			<td colspan = "2">
+
+			<label><input type="checkbox" name="hobby" value="Reading"> Swimming</label>
+
+			<label><input type="checkbox" name="hobby" value="Traveling"> Volleyball</label>
+
+			<label><input type="checkbox" name="hobby" value="Cooking"> Movie</label>
+
+			<label><input type="checkbox" name="hobby" value="Photography"> Game</label>
+
+			<label><input type="checkbox" name="hobby" value="Gardening"> sleep</label>
+
+			</td>
+        
+		</tr>
+
+		<tr>
+			<td>Skill</td>
+			<td colspan = "2">
+ 			<label><input type="checkbox" name="skill" value="Programming"> Java</label>
+      
+			<label><input type="checkbox" name="skill" value="Public Speaking"> HTML</label>
+ 
+			<label><input type="checkbox" name="skill" value="Writing"> Python</label>
+
+			<label><input type="checkbox" name="skill" value="Project Management"> Microsoft Office</label>
+
+			<label><input type="checkbox" name="skill" value="Graphic Design"> Premiere</label>
+
+			</td>
+		</tr>
+
+		<tr>
+			<td>Say Something</td>
+			<td colspan = "2"><input type="text" name="saySomething" placeholder="Say something here." required></td>
+        </tr>
+
+        <tr>
+			<td colspan="3" style="text-align: center;">
+				<input type="submit" name="submit" value="提交">
+				<button type="reset">重設</button>
+			</td>
+		</tr>
+    </table>
+
+
+</body>
+</html>
